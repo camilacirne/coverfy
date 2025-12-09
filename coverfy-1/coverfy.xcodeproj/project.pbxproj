@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2199C1AD2EE75B2E00407E41 /* coverfyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1AC2EE75B2E00407E41 /* coverfyApp.swift */; };
+		2199C1AF2EE75B2E00407E41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1AE2EE75B2E00407E41 /* ContentView.swift */; };
+		2199C1B12EE75B3000407E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2199C1B02EE75B3000407E41 /* Assets.xcassets */; };
+		2199C1B42EE75B3000407E41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2199C1B32EE75B3000407E41 /* Preview Assets.xcassets */; };
+		2199C1BE2EE75B3000407E41 /* coverfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1BD2EE75B3000407E41 /* coverfyTests.swift */; };
+		2199C1C82EE75B3100407E41 /* coverfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1C72EE75B3100407E41 /* coverfyUITests.swift */; };
+		2199C1CA2EE75B3100407E41 /* coverfyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1C92EE75B3100407E41 /* coverfyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2199C1BA2EE75B3000407E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2199C1A12EE75B2E00407E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2199C1A82EE75B2E00407E41;
+			remoteInfo = coverfy;
+		};
+		2199C1C42EE75B3100407E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2199C1A12EE75B2E00407E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2199C1A82EE75B2E00407E41;
+			remoteInfo = coverfy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2199C1A92EE75B2E00407E41 /* coverfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coverfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2199C1AC2EE75B2E00407E41 /* coverfyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverfyApp.swift; sourceTree = "<group>"; };
+		2199C1AE2EE75B2E00407E41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2199C1B02EE75B3000407E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2199C1B32EE75B3000407E41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2199C1B92EE75B3000407E41 /* coverfyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coverfyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2199C1BD2EE75B3000407E41 /* coverfyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverfyTests.swift; sourceTree = "<group>"; };
+		2199C1C32EE75B3100407E41 /* coverfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coverfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2199C1C72EE75B3100407E41 /* coverfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverfyUITests.swift; sourceTree = "<group>"; };
+		2199C1C92EE75B3100407E41 /* coverfyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coverfyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2199C1A62EE75B2E00407E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1B62EE75B3000407E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1C02EE75B3100407E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2199C1A02EE75B2E00407E41 = {
+			isa = PBXGroup;
+			children = (
+				2199C1AB2EE75B2E00407E41 /* coverfy */,
+				2199C1BC2EE75B3000407E41 /* coverfyTests */,
+				2199C1C62EE75B3100407E41 /* coverfyUITests */,
+				2199C1AA2EE75B2E00407E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2199C1AA2EE75B2E00407E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1A92EE75B2E00407E41 /* coverfy.app */,
+				2199C1B92EE75B3000407E41 /* coverfyTests.xctest */,
+				2199C1C32EE75B3100407E41 /* coverfyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2199C1AB2EE75B2E00407E41 /* coverfy */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1AC2EE75B2E00407E41 /* coverfyApp.swift */,
+				2199C1AE2EE75B2E00407E41 /* ContentView.swift */,
+				2199C1B02EE75B3000407E41 /* Assets.xcassets */,
+				2199C1B22EE75B3000407E41 /* Preview Content */,
+			);
+			path = coverfy;
+			sourceTree = "<group>";
+		};
+		2199C1B22EE75B3000407E41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1B32EE75B3000407E41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2199C1BC2EE75B3000407E41 /* coverfyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1BD2EE75B3000407E41 /* coverfyTests.swift */,
+			);
+			path = coverfyTests;
+			sourceTree = "<group>";
+		};
+		2199C1C62EE75B3100407E41 /* coverfyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1C72EE75B3100407E41 /* coverfyUITests.swift */,
+				2199C1C92EE75B3100407E41 /* coverfyUITestsLaunchTests.swift */,
+			);
+			path = coverfyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2199C1A82EE75B2E00407E41 /* coverfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2199C1CD2EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfy" */;
+			buildPhases = (
+				2199C1A52EE75B2E00407E41 /* Sources */,
+				2199C1A62EE75B2E00407E41 /* Frameworks */,
+				2199C1A72EE75B2E00407E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coverfy;
+			productName = coverfy;
+			productReference = 2199C1A92EE75B2E00407E41 /* coverfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2199C1B82EE75B3000407E41 /* coverfyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2199C1D02EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfyTests" */;
+			buildPhases = (
+				2199C1B52EE75B3000407E41 /* Sources */,
+				2199C1B62EE75B3000407E41 /* Frameworks */,
+				2199C1B72EE75B3000407E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2199C1BB2EE75B3000407E41 /* PBXTargetDependency */,
+			);
+			name = coverfyTests;
+			productName = coverfyTests;
+			productReference = 2199C1B92EE75B3000407E41 /* coverfyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2199C1C22EE75B3100407E41 /* coverfyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2199C1D32EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfyUITests" */;
+			buildPhases = (
+				2199C1BF2EE75B3100407E41 /* Sources */,
+				2199C1C02EE75B3100407E41 /* Frameworks */,
+				2199C1C12EE75B3100407E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2199C1C52EE75B3100407E41 /* PBXTargetDependency */,
+			);
+			name = coverfyUITests;
+			productName = coverfyUITests;
+			productReference = 2199C1C32EE75B3100407E41 /* coverfyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2199C1A12EE75B2E00407E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2199C1A82EE75B2E00407E41 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2199C1B82EE75B3000407E41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2199C1A82EE75B2E00407E41;
+					};
+					2199C1C22EE75B3100407E41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2199C1A82EE75B2E00407E41;
+					};
+				};
+			};
+			buildConfigurationList = 2199C1A42EE75B2E00407E41 /* Build configuration list for PBXProject "coverfy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2199C1A02EE75B2E00407E41;
+			productRefGroup = 2199C1AA2EE75B2E00407E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2199C1A82EE75B2E00407E41 /* coverfy */,
+				2199C1B82EE75B3000407E41 /* coverfyTests */,
+				2199C1C22EE75B3100407E41 /* coverfyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2199C1A72EE75B2E00407E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2199C1B42EE75B3000407E41 /* Preview Assets.xcassets in Resources */,
+				2199C1B12EE75B3000407E41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1B72EE75B3000407E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1C12EE75B3100407E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2199C1A52EE75B2E00407E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2199C1AF2EE75B2E00407E41 /* ContentView.swift in Sources */,
+				2199C1AD2EE75B2E00407E41 /* coverfyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1B52EE75B3000407E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2199C1BE2EE75B3000407E41 /* coverfyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2199C1BF2EE75B3100407E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2199C1C82EE75B3100407E41 /* coverfyUITests.swift in Sources */,
+				2199C1CA2EE75B3100407E41 /* coverfyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2199C1BB2EE75B3000407E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2199C1A82EE75B2E00407E41 /* coverfy */;
+			targetProxy = 2199C1BA2EE75B3000407E41 /* PBXContainerItemProxy */;
+		};
+		2199C1C52EE75B3100407E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2199C1A82EE75B2E00407E41 /* coverfy */;
+			targetProxy = 2199C1C42EE75B3100407E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2199C1CB2EE75B3100407E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2199C1CC2EE75B3100407E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2199C1CE2EE75B3100407E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coverfy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2199C1CF2EE75B3100407E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coverfy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2199C1D12EE75B3100407E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coverfy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coverfy";
+			};
+			name = Debug;
+		};
+		2199C1D22EE75B3100407E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coverfy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coverfy";
+			};
+			name = Release;
+		};
+		2199C1D42EE75B3100407E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coverfy;
+			};
+			name = Debug;
+		};
+		2199C1D52EE75B3100407E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DXHY3GVV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = camis.br.coverfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coverfy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2199C1A42EE75B2E00407E41 /* Build configuration list for PBXProject "coverfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2199C1CB2EE75B3100407E41 /* Debug */,
+				2199C1CC2EE75B3100407E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2199C1CD2EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2199C1CE2EE75B3100407E41 /* Debug */,
+				2199C1CF2EE75B3100407E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2199C1D02EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2199C1D12EE75B3100407E41 /* Debug */,
+				2199C1D22EE75B3100407E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2199C1D32EE75B3100407E41 /* Build configuration list for PBXNativeTarget "coverfyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2199C1D42EE75B3100407E41 /* Debug */,
+				2199C1D52EE75B3100407E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2199C1A12EE75B2E00407E41 /* Project object */;
+}
